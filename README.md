@@ -4,6 +4,10 @@ This fork makes the project pip installable.
 pip install git+https://github.com/ShaunKyle/PhysioNet-Challange-2020.git@main
 ```
 
+```python
+import dsail
+```
+
 # Bag of Tricks for Electrocardiogram Classification with Deep Neural Networks (Computing in Cardiology 2020)
 Official Pytorch implementation of DSAIL_SNU team (6th place) | [Paper](https://www.cinc.org/archives/2020/pdf/CinC2020-328.pdf) <br/>
 Classification of 12-lead ECGs - PhysioNet Challenge 2020 | [Challege](https://physionetchallenges.github.io/2020/) <br/>

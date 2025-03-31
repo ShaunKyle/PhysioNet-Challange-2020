@@ -4,8 +4,13 @@
 # https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html
 
 [build-system]
-requires = ["setuptools", "setuptools-scm"]
+requires = ["setuptools >= 77.0.3"]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]        # Search root directory
+#include = ["dsail"]
+exclude = ["build", "config", "models"]
 
 ####################
 # Project metadata #
@@ -13,7 +18,7 @@ build-backend = "setuptools.build_meta"
 # https://packaging.python.org/en/latest/specifications/declaring-project-metadata/
 
 [project]
-name = "TeamDSAIL"
+name = "PhysioNet_Challenge_2020"
 version = "1.0.0"
 requires-python = ">=3.6"
 description = ""
