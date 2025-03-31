@@ -1,0 +1,27 @@
+################
+# Build system #
+################
+# https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+####################
+# Project metadata #
+####################
+# https://packaging.python.org/en/latest/specifications/declaring-project-metadata/
+
+[project]
+name = "TeamDSAIL"
+version = "1.0.0"
+requires-python = ">=3.6"
+description = ""
+readme = "README.md"
+dependencies = [
+    "numpy<2",
+    "scikit_learn",
+    "scipy",
+    "future",
+    "ultralytics-thop",
+]
