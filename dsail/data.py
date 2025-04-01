@@ -5,8 +5,8 @@ from scipy.io import loadmat
 
 import torch
 
-from src.preprocess import preprocess_signal, preprocess_label
-from src.evaluate import load_weights
+from dsail.preprocess import preprocess_signal, preprocess_label
+from dsail.evaluate import load_weights
 
 
 class ecg_dataset(torch.utils.data.Dataset):

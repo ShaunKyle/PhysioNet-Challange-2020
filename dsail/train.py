@@ -11,9 +11,9 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.optim.lr_scheduler import _LRScheduler
 
-from src.data import collate_into_block
-from src.utils import Print
-import src.evaluate as evaluate
+from dsail.data import collate_into_block
+from dsail.utils import Print
+import dsail.evaluate as evaluate
 
 
 class Trainer():
