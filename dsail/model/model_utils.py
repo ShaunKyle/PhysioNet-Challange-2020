@@ -5,8 +5,8 @@ from thop import profile
 import torch
 import torch.nn as nn
 
-from src.model.model import ECG_model
-from src.utils import Print
+from dsail.model.model import ECG_model
+from dsail.utils import Print
 
 
 def get_model(model_cfg, num_channels, num_classes):
